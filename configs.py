@@ -5,14 +5,14 @@ import os
 
 
 class Config(object):
-    API_ID = int(os.getenv("API_ID", "12124605"))
-    API_HASH = os.getenv("API_HASH", "5cf3577d85fd02286535ec2296934287")
-    BOT_TOKEN = os.getenv("BOT_TOKEN", "5660564414:AAE2Hem9t5uouIXHlMMV6Rq-D8A8L1k5ku8")
-    BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "mdiskcynitebot")
+    API_ID = int(os.getenv("API_ID", "27794931"))
+    API_HASH = os.getenv("API_HASH", "64498a08cd474a139a8e5a1c5a5aa776")
+    BOT_TOKEN = os.getenv("BOT_TOKEN", "5914989167:AAHPUt_VrY1hbXscOkoBY7t6Rte8sLYmRdA")
+    BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "searchlinkbot")
     USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "String")
-    CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001558716347")) 
-    BOT_USERNAME = os.getenv("BOT_USERNAME", "cynitemdiskbot")
-    BOT_OWNER = int(os.getenv("BOT_OWNER", "1883570185"))
+    CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1806725283")) 
+    BOT_USERNAME = os.getenv("BOT_USERNAME", "searchlinkbot")
+    BOT_OWNER = int(os.getenv("BOT_OWNER", "2031365529"))
 #    OWNER_USERNAME = os.getenv("OWNER_USERNAME", "cyniteSupport")
     BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "cynitebackup")
 #    GROUP_USERNAME = os.getenv("GROUP_USERNAME")
